@@ -1,0 +1,1059 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-09-06T08:47:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660017569",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Gasworks (Cromac Street)",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3907",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9255467,
+          54.5921715
+        ]
+      },
+      "id": "node/3660017569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660017570",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Corporation Square",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3922",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9215345,
+          54.6049485
+        ]
+      },
+      "id": "node/3660017570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3661477546",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Gasworks (Lagan Towpath)",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3927",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9226342,
+          54.5912531
+        ]
+      },
+      "id": "node/3661477546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3661495480",
+        "amenity": "bicycle_rental",
+        "capacity": "8",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Dunbar Link / Gordon Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3916",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9255068,
+          54.602433
+        ]
+      },
+      "id": "node/3661495480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3662871700",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Waterfront",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3908",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9211082,
+          54.5972712
+        ]
+      },
+      "id": "node/3662871700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3664219028",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Donegall Quay",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3904",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922009,
+          54.6014465
+        ]
+      },
+      "id": "node/3664219028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3664510401",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Victoria Square / Victoria Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3903",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9240327,
+          54.5982034
+        ]
+      },
+      "id": "node/3664510401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3664514607",
+        "amenity": "bicycle_rental",
+        "capacity": "22",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Castle Place / Royal Avenue",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3912",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9298436,
+          54.5993582
+        ]
+      },
+      "id": "node/3664514607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3664516151",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "City Hall",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3902",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9308289,
+          54.5971826
+        ]
+      },
+      "id": "node/3664516151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3689028447",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "St George's Market / Cromac Square",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3906",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9236798,
+          54.5952546
+        ]
+      },
+      "id": "node/3689028447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3692919607",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Royal Avenue / Castlecourt",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3925",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9313084,
+          54.6013191
+        ]
+      },
+      "id": "node/3692919607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3692919608",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "North Street / Waring Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3917",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9282212,
+          54.6007847
+        ]
+      },
+      "id": "node/3692919608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3692919609",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Arthur Street / Chichester Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3929",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9276633,
+          54.597573
+        ]
+      },
+      "id": "node/3692919609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3693399744",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Linenhall Street / Donegall Square South",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3928",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9298788,
+          54.5958433
+        ]
+      },
+      "id": "node/3693399744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3693399745",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Alfred Street / St Malachy's Church",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3923",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9274273,
+          54.5947014
+        ]
+      },
+      "id": "node/3693399745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3701021805",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Cotton Court / Waring Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3926",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9258501,
+          54.6014233
+        ]
+      },
+      "id": "node/3701021805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3711978419",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Central Station / East Bridge Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3930",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9193029,
+          54.5953696
+        ]
+      },
+      "id": "node/3711978419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3711978420",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Central Station / Mays Meadow",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3905",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9164541,
+          54.5953307
+        ]
+      },
+      "id": "node/3711978420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3803715242",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Botanic Avenue / Shaftesbury Square",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3909",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.933532,
+          54.5893166
+        ]
+      },
+      "id": "node/3803715242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3805130759",
+        "amenity": "bicycle_rental",
+        "capacity": "22",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Odyssey / Sydenham Road",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3921",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9172403,
+          54.6039495
+        ]
+      },
+      "id": "node/3805130759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3824138861",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Titanic Quarter",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3932",
+        "start_date": "2015-12-01",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9112898,
+          54.6057386
+        ]
+      },
+      "id": "node/3824138861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3824138862",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Queens University / University Road",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3933",
+        "start_date": "2015-11-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9367269,
+          54.5843803
+        ]
+      },
+      "id": "node/3824138862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3824138863",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Queens University / Botanic Gardens",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3934",
+        "start_date": "2015-11-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9328105,
+          54.5839495
+        ]
+      },
+      "id": "node/3824138863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811965",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Carrick Hill / St Patricks Church",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3915",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.932833,
+          54.6049929
+        ]
+      },
+      "id": "node/3881811965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811966",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Cathedral Gardens / York Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3914",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.92928,
+          54.6036469
+        ]
+      },
+      "id": "node/3881811966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811967",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Writer's Square / St Anne's Cathedral",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3931",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9297209,
+          54.6026064
+        ]
+      },
+      "id": "node/3881811967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811968",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Millfield / Divis Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3920",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9363085,
+          54.5997012
+        ]
+      },
+      "id": "node/3881811968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811969",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Smithfield / Winetavern Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3913",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9333409,
+          54.6021241
+        ]
+      },
+      "id": "node/3881811969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811970",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "College Square East",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3919",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9348201,
+          54.5974308
+        ]
+      },
+      "id": "node/3881811970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811971",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Europa Bus Station / Blackstaff Square",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3910",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9331231,
+          54.5948186
+        ]
+      },
+      "id": "node/3881811971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811972",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Great Victoria Street / Hope Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3911",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9343639,
+          54.5934652
+        ]
+      },
+      "id": "node/3881811972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811973",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Bankmore Square / Dublin Road",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3918",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9315184,
+          54.5926926
+        ]
+      },
+      "id": "node/3881811973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881811974",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Bradbury Place",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3924",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9355202,
+          54.5881623
+        ]
+      },
+      "id": "node/3881811974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336654077",
+        "amenity": "bicycle_rental",
+        "capacity": "14",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Belfast City Hospital / Lisburn Road",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3935",
+        "start_date": "2016-08-01",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9399419,
+          54.5865476
+        ]
+      },
+      "id": "node/4336654077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336654078",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Royal Victoria Hospital",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3936",
+        "start_date": "2016-08-01",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9584722,
+          54.5899034
+        ]
+      },
+      "id": "node/4336654078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4391392183",
+        "amenity": "bicycle_rental",
+        "capacity": "10",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Mater Hospital / Crumlin Road",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3937",
+        "start_date": "2016-09-07",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9410258,
+          54.6085425
+        ]
+      },
+      "id": "node/4391392183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447236708",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Shankill Leisure Centre",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3938",
+        "start_date": "2016-10-13",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9444044,
+          54.6036798
+        ]
+      },
+      "id": "node/4447236708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447236709",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Girdwood Community Hub",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3942",
+        "start_date": "2016-10-13",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.942153,
+          54.6119039
+        ]
+      },
+      "id": "node/4447236709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447236710",
+        "amenity": "bicycle_rental",
+        "capacity": "8",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Duncairn Centre / Antrim Road",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3943",
+        "start_date": "2015-04-27",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9367534,
+          54.6124284
+        ]
+      },
+      "id": "node/4447236710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4513769215",
+        "addr:street": "Newtownards Road",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "CS Lewis Square",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3944",
+        "start_date": "2016-11-22",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8905673,
+          54.5983217
+        ]
+      },
+      "id": "node/4513769215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083221211",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Grosvenor Road / Servia Street",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3940",
+        "start_date": "2017-07-21",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9490879,
+          54.5953157
+        ]
+      },
+      "id": "node/5083221211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083221212",
+        "amenity": "bicycle_rental",
+        "capacity": "8",
+        "contact:email": "belfastbikes@nsl.co.uk",
+        "contact:phone": "+44 34 3357 1551",
+        "name": "Falls Road / Twin Spires",
+        "network": "Belfast Bikes",
+        "opening_hours": "06:00-00:00",
+        "operator": "Belfast Bikes (Belfast City Council)",
+        "ref": "3941",
+        "start_date": "2016-08-01",
+        "website": "http://www.belfastbikes.co.uk/en/belfast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9475845,
+          54.5994268
+        ]
+      },
+      "id": "node/5083221212"
+    }
+  ]
+}
