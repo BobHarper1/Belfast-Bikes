@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import ast
 from requests.auth import HTTPBasicAuth
 
 url = "http://www.cyclestreets.net/api/journey.json?"
@@ -14,7 +15,7 @@ stationCodes = [3902,3903,3904,3905,3906,3907,3908,3909,3910,3911,3912,3913,3914
 stationNames = ["City Hall","Victoria Square / Victoria Street","Donegall Quay","Central Station / Mays Meadow","St George's Market / Cromac Square","Gasworks (Cromac Street)","Waterfront","Botanic Avenue / Shaftesbury Square","Europa Bus Station / Blackstaff Square","Great Victoria Street / Hope Street","Castle Place / Royal Avenue","Smithfield / Winetavern Street","Cathedral Gardens / York Street","Carrick Hill / St Patricks Church","Dunbar Link / Gordon Street","North Street / Waring Street","Bankmore Square / Dublin Road","College Square East","Millfield / Divis Street","Odyssey / Sydenham Road","Corporation Square","Alfred Street / St Malachy's Church","Bradbury Place","Royal Avenue / Castlecourt","Cotton Court / Waring Street","Gasworks (Lagan Towpath)","Linenhall Street / Donegall Square South","Arthur Street / Chichester Street","Central Station / East Bridge Street","Writer's Square / St Anne's Cathedral","Titanic Quarter","Queens University / University Road","Queens University / Botanic Gardens","Belfast City Hospital / Lisburn Road","Royal Victoria Hospital","Mater Hospital / Crumlin Road","Shankill Leisure Centre","Grosvenor Road / Servia Street","Falls Road / Twin Spires","Girdwood Community Hub","Duncairn Centre / Antrim Road","CS Lewis Square"]
 
 with open('cycleroutes.json', 'w', encoding="utf8") as myFile:
-    myFile.write('{"type": "FeatureCollection","features": [\n')
+    myFile.write('{\n\t"type": "FeatureCollection",\n\t"features": [\n')
     for o in range(0,len(stationCodes)):
         origin = stationCoords[o]
         oName = stationNames[o]
@@ -23,30 +24,40 @@ with open('cycleroutes.json', 'w', encoding="utf8") as myFile:
                 dest = stationCoords[d]
                 dName = stationNames[d]
                 fullName = oName + ' to ' + dName
-                fullCode = int(str(stationCodes[o]) + str(stationCodes[d]))
+                fullCode = str(stationCodes[o]) + str(stationCodes[d])
                 points = origin + ',' + oName + '|' + dest + ',' + dName
                 query = {'itinerarypoints': points, 'plan': mode, 'key': key}
                 resp = requests.get(url, query)
                 print(resp.url)
                 json_result = resp.json()
                 route = json_result['marker'][0]['@attributes']['coordinates'].replace(" ","],[")
+                route = ast.literal_eval(''.join(('[',route,']')))
                 grammesCO2saved = json_result['marker'][0]['@attributes']['grammesCO2saved']
                 distance = json_result['marker'][0]['@attributes']['length']
+                seconds = json_result['marker'][0]['@attributes']['time']
+                calories = json_result['marker'][0]['@attributes']['calories']
+                elevation = int(json_result['marker'][0]['@attributes']['elevations'][-1]) - int(json_result['marker'][0]['@attributes']['elevations'][0])
                 feature = {
                         "properties": {
                                 "name": fullName,
                                 "origin": oName,
                                 "destination": dName,
-                                "origin_code": origin,
-                                "destination_code": dest,
-                                "code": str(fullCode),
-                                "distance": distance,
-                                "grammesCO2saved": grammesCO2saved
+                                "origin_code": stationCodes[o],
+                                "destination_code": stationCodes[d],
+                                "origin_point": route[0],
+                                "destination_point": route[-1],
+                                "code": fullCode,
+                                "distance": int(distance),
+                                "grammesCO2saved": int(grammesCO2saved),
+                                "time": int(seconds),
+                                "calories": int(calories),
+                                "elevation": int(elevation)
                         },
                         "type": "Feature",
                         "geometry" : {
                                 "type": "LineString",
-                                "coordinates": [[''.join(('[',route,']'))]]
+                                "coordinates":
+                                    route
 				}
                         }
                 json.dump(feature, myFile, indent = 4, separators = (', ',': '))
